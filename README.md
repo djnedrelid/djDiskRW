@@ -45,7 +45,7 @@ GPT konvertering og en runde BCDBOOT. Men det anbefales ikke... Funksjonalitet e
 men programmet kommer uten garantier og bruk er på eget ansvar.  
    
    
-**Tekniske notater på engelsk fra tidligere artikkel fra nettside**  
+**Tekniske notater på engelsk fra tidligere artikkel fra nettside:**  
 Uses ~3 MB ram. File is a ~0.5 MB sized portable x64 Win32 program, no install or footprint.  
 
 **Read Disk**  
