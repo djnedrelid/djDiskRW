@@ -49,8 +49,10 @@ men programmet kommer uten garantier og bruk er på eget ansvar.
 Uses ~3 MB ram. File is a ~0.5 MB sized portable x64 Win32 program, no install or footprint.  
 
 **Read Disk**  
-* Reads entire surface, 1MiB at a time. Will detect any non-zero sector bytes. This serves to both verify a wipe, and trigger any rarely used sectors in SMART. 
-
+* Reads entire surface, 1MiB at a time. Will detect any non-zero sector bytes. 
+This serves to both verify a wipe, and trigger any rarely used sectors in SMART. 
+Useful for e.g. media or backup archive drives do check their health once in a while.  
+ 
 **Write Disk**  
 * Writes entire surface, 1MiB at a time. Will verify and detect any non-zero written byte. 
 This serves to both securely(*) wipe a disk, and trigger any rarely used bad sectors in SMART.  
