@@ -2,9 +2,10 @@
 
 Et lite program jeg skrev for å lese og skrive overflaten til en harddisk, mest for morro skyld.  
 
-![UI Example](ui_example.png) 
+![UI Example](ui_example.png)
 - Det står BETA, men publisert versjon er 1.0  
-
+   
+   
 **Flere formål**  
 Når man kjøper en ny eller brukt harddisk kan det være uoppdagede dårlige sektorer eller blokker 
 (utover det som er reservert som akseptabelt fra OEM som skjules fra SMART) som SMART kun vil 
@@ -16,8 +17,8 @@ verifisering, eller faktisk noe som helst informasjon i det hele tatt. Dette pro
 tilbake hver eneste sektor som overskrives for å verifisere at alt ble grundig nullet ut.  
 
 Programmet holder systemet våkent under lesing og/eller skriving.  
-  
-  
+   
+   
 ***) ZERO-PASS og trygghet**  
 Noen folk bryr seg mer om semantikk og pedanteri enn hva som fungerer for sitt formål. 
 De kan f.eks. ha bekymringer om snudde bits på SSD lagring. Noen få bits kommer aldri 
@@ -42,8 +43,8 @@ Systemet vil stoppe skrivingen, men ikke før man har skrevet over kritiske start
 Jeg korrigerte dette på under 10 minutter ved å gj.opprette partisjonen med AOMEI partition assistant, 
 GPT konvertering og en runde BCDBOOT. Men det anbefales ikke... Funksjonalitet er grundig testet, 
 men programmet kommer uten garantier og bruk er på eget ansvar.  
-  
-  
+   
+   
 **Tekniske notater på engelsk fra tidligere artikkel fra nettside**  
 Uses ~3 MB ram. File is a ~0.5 MB sized portable x64 Win32 program, no install or footprint.  
 
