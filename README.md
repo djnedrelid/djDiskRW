@@ -5,7 +5,6 @@ Et lite program jeg skrev for å lese og skrive overflaten til en harddisk, mest 
 ![UI Example](ui_example.png)
 - Det står BETA, men publisert versjon er 1.0  
    
-   
 
 **Flere formål**  
 Når man kjøper en ny eller brukt harddisk kan det være uoppdagede dårlige sektorer eller blokker 
