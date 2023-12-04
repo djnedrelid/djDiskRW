@@ -6,6 +6,7 @@ Et lite program jeg skrev for å lese og skrive overflaten til en harddisk, mest 
 - Det står BETA, men publisert versjon er 1.0  
    
    
+
 **Flere formål**  
 Når man kjøper en ny eller brukt harddisk kan det være uoppdagede dårlige sektorer eller blokker 
 (utover det som er reservert som akseptabelt fra OEM som skjules fra SMART) som SMART kun vil 
